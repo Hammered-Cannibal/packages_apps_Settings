@@ -78,6 +78,13 @@
         android:title="@string/color_theme"
         android:summary="@string/summary_placeholder" />
 
+	<Preference
+        android:key="expanded_desktop"
+        android:title="@string/expanded_desktop_pref_title"
+        android:summary="@string/expanded_desktop_pref_summary"
+        android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+
+
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.TimeoutListPreference
         android:key="screen_timeout"
@@ -98,6 +105,7 @@
         android:fragment="com.android.settings.display.ColorModePreferenceFragment"
         settings:keywords="@string/keywords_color_mode" />
 
+   
     <Preference
         android:key="font_size"
         android:title="@string/title_font_size"
