@@ -190,4 +190,10 @@
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
     <string name="value_equals_default">def</string>
     <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+	
+    <!-- Nav Gesture -->
+    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action.</string>
+
+
 </resources>
